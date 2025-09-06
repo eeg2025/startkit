@@ -1,0 +1,38 @@
+{
+  "onset": {
+    "LongName": "Event onset",
+    "Description": "Position (latency) of event marker in seconds relative to the start.",
+    "Units": "seconds"
+  },
+  "duration": {
+    "Description": "Duration of the event, set typically to n/a. Instead, the duration of the event is determined by the onset/offset flags or the next event.",
+    "Units": "seconds"
+  },
+  "sample": {
+    "Description": "Temporal position (latency) of event marker relative to the start, in data frames."
+  },
+  "value": {
+    "Description": "The event marker value (type).",
+    "Levels": {
+        "video_start": "Video stream started",
+        "video_stop": "Video stream completed and stopped"
+    },
+    "HED": {
+    "video_start": "(Def/play-video, Onset)",
+    "video_stop": "(Def/play-video, Offset)"
+    }
+  },
+  "event_code": {
+    "Description": "The original code used during data collection to indicate an event marker.",
+    "Levels": {
+        "83": "Video stream started",
+        "103": "Video stream completed and stopped"
+    }
+  },
+  "hed_def":{
+    "Description": "Metadata dictionary for defining the stimulus",
+    "HED":{
+      "play_video_def" : "(Definition/play-video,((Visual-presentation, Computer-screen, (Movie, Temporal-rate/24 Hz)), (Auditory-presentation, Loudspeaker)))"
+    }
+  }
+}

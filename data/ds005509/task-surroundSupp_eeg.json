@@ -1,0 +1,14 @@
+{
+  "TaskName": "surroundSupp",
+  "SamplingFrequency": 100,
+  "PowerLineFrequency": 60,
+  "EEGReference": "Cz",
+  "RecordingType": "continuous",
+  "SoftwareFilters": "n/a",
+  "InstitutionName": "Child Mind Institute",
+  "InstitutionAddress": "101 E 56th St, New York, NY 10022",
+  "Manufacturer": "Magtism EGI",
+  "ManufacturersModelName": "128-channel GSN 200 v.2.1",
+  "TaskDescription": "In each sequence of discrete 2.4 s trials, four circular 'foreground' stimuli (vertical grating, radius 2\u00b0) were flickered on-and-off at 25 Hz, embedded in a static (non-flickering) full-screen 'surround' (see Fig. 2 Langer 2017). Each trial began with the presentation of the fixation spot for 500 ms, after which the foreground and surround stimuli were simultaneously presented for 2,400 ms. After an inter-trial interval of 500 ms, the following trial was initiated. Foreground and surround patterns were sinusoidal luminance-modulated gratings with a spatial frequency of 1 cycle per degree in all conditions. Across trials, we randomly varied foreground contrast (0%, 30%, 60% or 100%), surround contrast (0% or 100%) and surround orientation (parallel or orthogonal to the foreground, i.e., vertical or horizontal). Eye gaze was monitored continually using the eye tracker. The entire task was recorded in two blocks, each consisting of 64 trials and lasting ~3.6 min. We placed the four flickering 'foreground' disks at locations that are well known to evoke scalp potentials that are inverted in polarity for the upper versus lower field, at polar angles of 20\u00b0 above (upper) and 45\u00b0 below (lower) the horizontal meridian at an eccentricity of 5\u00b0 of visual angle. Following previous work in which we demonstrated dramatic improvements in SSVEP signal-to-noise ratio (SNR), we flickered the upper disks with opposite temporal phase relative to the lower disks in the foreground, causing oscillatory summation on the scalp because of the cortical surface orientation of early retinotopic visual areas.",
+  "Instructions": "Just maintain fixation on the central spot at all times. Press to begin. First, we have to measure the position of your eyes. Just follow the circle with your eyes."
+}

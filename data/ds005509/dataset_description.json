@@ -1,0 +1,49 @@
+{
+  "Name": "Healthy Brain Network (HBN) EEG - Release 5 (BDF Converted)",
+  "License": "CC-BY-SA 4.0",
+  "Authors": [
+    "Seyed Yahya Shirazi",
+    "Alexandre Franco",
+    "Maur\u00edcio Scopel Hoffmann",
+    "Nathalia B. Esper",
+    "Dung Truong",
+    "Arnaud Delorme",
+    "Michael Milham",
+    "Scott Makeig"
+  ],
+  "ReferencesAndLinks": [
+    "https://doi.org/10.1101/2024.10.03.615261",
+    "https://dx.doi.org/10.1038/sdata.2017.181",
+    "https://dx.doi.org/10.1038/sdata.2017.40"
+  ],
+  "HowToAcknowledge": "Please cite the dataset paper (https://doi.org/10.1101/2024.10.03.615261) as well as the original HBN publication (https://dx.doi.org/10.1038/sdata.2017.181).",
+  "EthicsApprovals": [
+    "Chesapeake Institutional Review Board"
+  ],
+  "BIDSVersion": "1.9.0",
+  "HEDVersion": "8.3.0",
+  "SourceDatesets": [
+    {
+      "URL": "s3://fcp-indi/data/Projects/HBN"
+    }
+  ],
+  "DatasetType": "raw",
+  "Funding": [
+    "See https://childmind.org/science/global-open-science/healthy-brain-network/#donors",
+    "NIH/NIMH R01MH125934 for BIDS data preparation"
+  ],
+  "Acknowledgements": "We thank the participants and their families for their time and effort. We also thank the NeuroScience Gateway team for providing computational resources.",
+  "GeneratedBy": [
+    {
+      "Name": "bids-matlab-tools",
+      "Version": "9.1"
+    }
+  ],
+  "DatasetDOI": "10.18112/openneuro.ds005509.v1.0.1",
+  "ConversionInfo": {
+    "OriginalFormat": "EEGLAB SET",
+    "ConvertedFormat": "BDF",
+    "ConversionDate": "2025-08-19T00:07:28.145117",
+    "ConversionTool": "emgio"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "TaskName": "FunwithFractals",
+  "SamplingFrequency": 100,
+  "PowerLineFrequency": 60,
+  "EEGReference": "Cz",
+  "RecordingType": "continuous",
+  "SoftwareFilters": "n/a",
+  "InstitutionName": "Child Mind Institute",
+  "InstitutionAddress": "101 E 56th St, New York, NY 10022",
+  "Manufacturer": "Magtism EGI",
+  "ManufacturersModelName": "128-channel GSN 200 v.2.1",
+  "TaskDescription": "Participants viewed 4 short, age-appropriate video clips taken from television and movies. (Prior to this task, parents were given the opportunity to review the full list of clips and exclude any video clips they deemed unsuitable for their children; no parents had any objections to the clips.). VideoDescription: Rating: No parental guideline rating, Description: This video depicts fractal-based geometry in everyday objects and visually depicts how some fractals are created., Rationale: This clip is included to probe for attention related dif ficulties., Link: https://youtu.be/XwWyTts06tU, Length: 2:43",
+  "Instructions": "Just maintain fixation on the central spot at all times. Press to begin. First, we have to measure the position of your eyes. Just follow the circle with your eyes."
+}

@@ -1,0 +1,14 @@
+{
+  "TaskName": "contrastChangeDetection",
+  "SamplingFrequency": 100,
+  "PowerLineFrequency": 60,
+  "EEGReference": "Cz",
+  "RecordingType": "continuous",
+  "SoftwareFilters": "n/a",
+  "InstitutionName": "Child Mind Institute",
+  "InstitutionAddress": "101 E 56th St, New York, NY 10022",
+  "Manufacturer": "Magtism EGI",
+  "ManufacturersModelName": "128-channel GSN 200 v.2.1",
+  "TaskDescription": "The contrast change detection paradigm is designed to enable isolation of the neural signatures of sensory evidence encoding, accumulation, and motor preparation without the need for complex signal processing beyond elementary epoch averaging and spectral estimation. In the present task, subjects continuously viewed an annular pattern (inner radius: 1\u00b0; outer radius 6\u00b0) composed of two overlaid gratings tilted 45\u00b0 to the left and 45\u00b0 to the right of vertical, which continuously phase-reversed at distinct rates of 20 and 25 Hz, respectively. At baseline (in between targets), both gratings had an equal contrast of 50%. Participants were asked to maintain fixation on a point in the center of this stimulus, and to detect contrast-change targets, where one grating gradually increased to 100% and the other simultaneously decreased to 0%. They were asked to make a left-hand button click for targets in which the left-tilted grating increased in contrast, and to make a right-hand click for right-tilted increases. Twelve of each of these two target types were presented in each 3.1-minute block, in random order. The changes in contrast from 50 to 100% occurred linearly over 1,600 ms, with an immediate 800 ms linear return to 50%. Beginning immediately at the end of each target, the 50% contrast baseline stimulus was presented for an inter-target interval of 2.8, 4.4 or 6 s. Also, immediately following target end, feedback was presented in the form of a smiley (correct click) or sad face (incorrect click or no click) for the first 400 ms of the inter-target interval. If a subject missed three consecutive targets, a short voice recording was played, saying, 'You just missed three targets in a row. Please focus again.' In the current dataset, each subject completed 3 blocks of this task.",
+  "Instructions": "Fixate on the central dot. Press the LEFT button with LEFT hand when the LEFT-tilted pattern gets stronger. Press the RIGHT button with RIGHT hand when the RIGHT-tilted pattern gets stronger. Work as quickly as you can without making mistakes. Press the mouse button to begin."
+}

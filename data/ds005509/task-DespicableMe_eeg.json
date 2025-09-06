@@ -1,0 +1,14 @@
+{
+  "TaskName": "DespicableMe",
+  "SamplingFrequency": 100,
+  "PowerLineFrequency": 60,
+  "EEGReference": "Cz",
+  "RecordingType": "continuous",
+  "SoftwareFilters": "n/a",
+  "InstitutionName": "Child Mind Institute",
+  "InstitutionAddress": "101 E 56th St, New York, NY 10022",
+  "Manufacturer": "Magtism EGI",
+  "ManufacturersModelName": "128-channel GSN 200 v.2.1",
+  "TaskDescription": "Participants viewed 4 short, age-appropriate video clips taken from television and movies. (Prior to this task, parents were given the opportunity to review the full list of clips and exclude any video clips they deemed unsuitable for their children; no parents had any objections to the clips.). VideoDescription: Rating: Rated PG for rude humor and mild action, Description: In this animation, a new adoptive father reads his three children a bedtime story., Rationale: This clip is included to probe for attachment formation related issues., Link: https://youtu.be/HNXxJIhVALI, Length: 2:51",
+  "Instructions": "Just maintain fixation on the central spot at all times. Press to begin. First, we have to measure the position of your eyes. Just follow the circle with your eyes."
+}
