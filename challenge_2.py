@@ -149,7 +149,8 @@ all_datasets_list = [
     for release in release_list
 ]
 print("Datasets loaded")
-sub_rm = ["NDARWV769JM7"]
+sub_rm = ["NDARWV769JM7", "NDARME789TD2", "NDARUA442ZVF","NDARJP304NK1",
+          "NDARTY128YLU","NDARDW550GU6","NDARLD243KRE","NDARUJ292JXV", "NDARBA381JGH"]
 
 # %% [markdown]
 # ### B. Combine the datasets into a single one
