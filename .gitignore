@@ -1,0 +1,9 @@
+.DS_store
+.ipynb_checkpoints
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+
+data/
