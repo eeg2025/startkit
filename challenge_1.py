@@ -108,16 +108,6 @@ dataset_ccd = EEGChallengeDataset(
     mini=True
 )
 
-# List of subjects to remove due to quality issues (insufficient channels or duration)
-sub_rm = ["NDARWV769JM7", "NDARME789TD2", "NDARUA442ZVF", "NDARJP304NK1",
-          "NDARTY128YLU", "NDARDW550GU6", "NDARLD243KRE", "NDARUJ292JXV", "NDARBA381JGH"]
-
-# Filter out problematic subjects
-dataset_ccd = BaseConcatDataset([
-    ds for ds in dataset_ccd.datasets
-    if not any(sub in ds.raw.filenames[0] for sub in sub_rm)
-])
-
 # For visualization purposes, we will see just one object.
 raw = dataset_ccd.datasets[0].raw  # get the Raw object of the first recording
 
@@ -401,7 +391,13 @@ valid_frac = 0.1
 test_frac = 0.1
 seed = 2025
 
+# List of subjects to remove due to quality issues (insufficient channels or duration)
+sub_rm = ["NDARWV769JM7", "NDARME789TD2", "NDARUA442ZVF", "NDARJP304NK1",
+          "NDARTY128YLU", "NDARDW550GU6", "NDARLD243KRE", "NDARUJ292JXV", "NDARBA381JGH"]
+
 subjects = meta_information["subject"].unique()
+# Filter out problematic subjects
+subjects = [s for s in subjects if s not in sub_rm]
 
 train_subj, valid_test_subject = train_test_split(
     subjects, test_size=(valid_frac + test_frac), random_state=check_random_state(seed), shuffle=True
