@@ -8,9 +8,8 @@
 # ├─ weights_challenge_1.pt
 # └─ weights_challenge_2.pt
 
-from braindecode.models import EEGNetv4
+from braindecode.models import EEGNeX
 import torch
-
 
 class Submission:
     def __init__(self, SFREQ, DEVICE):
@@ -18,19 +17,18 @@ class Submission:
         self.device = DEVICE
 
     def get_model_challenge_1(self):
-        model_challenge1 = EEGNetv4(
-            in_chans=129, n_classes=1, input_window_samples=int(2 * self.sfreq)
+        model_challenge1 = EEGNeX(
+            n_chans=129, n_outputs=1, sfreq=self.sfreq, n_times=int(2 * self.sfreq)
         ).to(self.device)
-        # checkpoint_1 = torch.load("weights_challenge_1.pt", map_location=self.device)
-        # model_challenge1.load_state_dict(...)
+        # load from the current directory (/app/output/ is where the file resides on Codabench)
+        # model_challenge1.load_state_dict(torch.load("/app/output/weights_challenge_1.pt", map_location=self.device))
         return model_challenge1
 
     def get_model_challenge_2(self):
-        model_challenge2 = EEGNetv4(
-            in_chans=129, n_classes=1, input_window_samples=int(2 * self.sfreq)
+        model_challenge2 = EEGNeX(
+            n_chans=129, n_outputs=1, n_times=int(2 * self.sfreq)
         ).to(self.device)
-        # checkpoint_2 = torch.load("weights_challenge_2.pt", map_location=self.device)
-        # model_challenge2.load_state_dict(...)
+        # model_challenge2.load_state_dict(torch.load("/app/output/weights_challenge_2.pt", map_location=self.device))
         return model_challenge2
 
 

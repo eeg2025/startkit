@@ -9,4 +9,4 @@ dependencies:
   - pip==25.2
   - pip:
     - braindecode
-    - eegdash
+    - eegdash>=0.3.8

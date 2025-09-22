@@ -73,7 +73,7 @@ from torch import optim
 from torch.nn.functional import l1_loss
 from braindecode.preprocessing import create_fixed_length_windows
 from braindecode.datasets.base import EEGWindowsDataset, BaseConcatDataset, BaseDataset
-from braindecode.models import EEGNetv4
+from braindecode.models import EEGNeX
 from eegdash import EEGChallengeDataset
 
 # %% [markdown]
@@ -149,8 +149,8 @@ all_datasets_list = [
     for release in release_list
 ]
 print("Datasets loaded")
-sub_rm = ["NDARWV769JM7"]
-
+sub_rm = ["NDARWV769JM7", "NDARME789TD2", "NDARUA442ZVF", "NDARJP304NK1",
+          "NDARTY128YLU", "NDARDW550GU6", "NDARLD243KRE", "NDARUJ292JXV", "NDARBA381JGH"]
 # %% [markdown]
 # ### B. Combine the datasets into a single one
 
@@ -266,14 +266,14 @@ windows_ds = BaseConcatDataset(
 
 # Now we have our pytorch dataset necessary for the training!
 #
-# Below, we define a simple EEGNetv4 model from Braindecode.
+# Below, we define a simple EEGNeX model from Braindecode.
 # All the braindecode models expect the input to be of shape (batch_size, n_channels, n_times)
 # and have a test coverage about the behavior of the model.
 # However, you can use any pytorch model you want.
 
 # %%
 # Initialize model
-model = EEGNetv4(n_chans=129, n_outputs=1, n_times=2 * SFREQ).to(device)
+model = EEGNeX(n_chans=129, n_outputs=1, n_times=2 * SFREQ).to(device)
 
 # Specify optimizer
 optimizer = optim.Adamax(params=model.parameters(), lr=0.002)
@@ -318,4 +318,5 @@ for epoch in range(n_epochs):
         optimizer.step()
 
 # Finally, we can save the model for later use
-torch.save(model.state_dict(), "model_weights_challenge_2.pt")
+torch.save(model.state_dict(), "weights_challenge_2.pt")
+print("Model saved as 'weights_challenge_2.pt'")

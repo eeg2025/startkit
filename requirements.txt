@@ -1,4 +1,4 @@
-eegdash
+eegdash>=0.3.8
 braindecode
 jupyter
 lightning
