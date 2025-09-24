@@ -1,0 +1,10 @@
+{
+  "PowerLineFrequency": 60,
+  "TaskName": "RestingState",
+  "EEGChannelCount": 129,
+  "EEGReference": "Cz",
+  "RecordingType": "continuous",
+  "RecordingDuration": 371.006,
+  "SamplingFrequency": 100,
+  "SoftwareFilters": "n/a"
+}

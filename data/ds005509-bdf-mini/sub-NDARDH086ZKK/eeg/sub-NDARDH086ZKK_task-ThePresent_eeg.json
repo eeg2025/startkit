@@ -1,0 +1,10 @@
+{
+  "PowerLineFrequency": 60,
+  "TaskName": "ThePresent",
+  "EEGChannelCount": 129,
+  "EEGReference": "Cz",
+  "RecordingType": "continuous",
+  "RecordingDuration": 208.156,
+  "SamplingFrequency": 100,
+  "SoftwareFilters": "n/a"
+}

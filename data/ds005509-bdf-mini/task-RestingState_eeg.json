@@ -1,0 +1,14 @@
+{
+  "TaskName": "RestingState",
+  "SamplingFrequency": 100,
+  "PowerLineFrequency": 60,
+  "EEGReference": "Cz",
+  "RecordingType": "continuous",
+  "SoftwareFilters": "n/a",
+  "InstitutionName": "Child Mind Institute",
+  "InstitutionAddress": "101 E 56th St, New York, NY 10022",
+  "Manufacturer": "Magtism EGI",
+  "ManufacturersModelName": "128-channel GSN 200 v.2.1",
+  "TaskDescription": "Participants viewed a standard fixation cross in the center of the computer screen. The recorded voice of a female research assistant instructed them to 'now open your eyes' (rest with eyes open for 20 s) and 'now close your eyes' (rest with eyes closed for 40 s); this procedure was repeated 5 times, alternating between eyes opened and eyes closed. For purposes of analysis, we were mainly interested in the eyes-closed condition, due to the lower frequency of eye blinks. However, we interspersed the brief eyes-open blocks throughout the task in order to ensure that participants remained engaged for the duration of the task session.",
+  "Instructions": "Fixate on the central cross. Open or close your eyes when you hear the request for it. Press to begin."
+}

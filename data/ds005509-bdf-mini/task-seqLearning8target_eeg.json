@@ -1,0 +1,14 @@
+{
+  "TaskName": "seqLearning8target",
+  "SamplingFrequency": 100,
+  "PowerLineFrequency": 60,
+  "EEGReference": "Cz",
+  "RecordingType": "continuous",
+  "SoftwareFilters": "n/a",
+  "InstitutionName": "Child Mind Institute",
+  "InstitutionAddress": "101 E 56th St, New York, NY 10022",
+  "Manufacturer": "Magtism EGI",
+  "ManufacturersModelName": "128-channel GSN 200 v.2.1",
+  "TaskDescription": "Participants were asked to view a sequence of 10 flashed-circle stimuli, which appeared among 8 possible, marked locations on the screen. The same sequence was presented a total of 5 times; after viewing each presentation, the participant attempted to reproduce the sequence to the best of their ability by sequentially clicking the different locations using a computer mouse. In pilot testing, we observed a floor effect on this 10-item sequence version in children younger than 9 years old; therefore, in the present study, participants 8 years and below were shown a shorter sequence of 7 items displayed among 6 possible locations. There was no restriction on the time provided to report the recalled sequence, and no feedback was provided throughout the task. Visual stimuli consisted of filled white circles with a diameter of 1 cm presented at eight different equidistant spatial locations on a radius of 5 cm eccentricity, and were continuously marked by static circular outlines. Stimuli were presented (and gradually faded out) for 200 ms, with an inter-stimulus interval of 1,300 ms. Throughout the task, subjects were asked to hold eye fixation on a central fixation point (yellow dot). Before the main task recording, a training block was administered, consisting of 5 stimuli on the same 8 locations, in order to familiarize the subjects with the tasks and to confirm their comprehension of them. Feedback was provided for the training task only. The duration of this paradigm varied between 8-15 min, depending on the speed of recall reports.",
+  "Instructions": "Fixate on the yellow dot. Try to remember the sequence of the flashing dots. The SAME sequence will be repeated 5 times. After each round you have to give a response. If you do not know all the locations guess the others. Press the mouse button to begin."
+}

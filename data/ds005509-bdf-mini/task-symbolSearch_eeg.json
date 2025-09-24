@@ -1,0 +1,14 @@
+{
+  "TaskName": "symbolSearch",
+  "SamplingFrequency": 100,
+  "PowerLineFrequency": 60,
+  "EEGReference": "Cz",
+  "RecordingType": "continuous",
+  "SoftwareFilters": "n/a",
+  "InstitutionName": "Child Mind Institute",
+  "InstitutionAddress": "101 E 56th St, New York, NY 10022",
+  "Manufacturer": "Magtism EGI",
+  "ManufacturersModelName": "128-channel GSN 200 v.2.1",
+  "TaskDescription": "The visual geometric stimuli consisted of black symbols with a size of 1 cm width and 1 cm height. As on each page of the paper version, 15 trials were presented at a time on the screen. Each row contained two target symbols and five search symbols, arranged horizontally across the row. Participants were instructed to indicate for each row, by mouse-click (mark either the yes or no checkbox), whether either of the target symbols matched with any of the five search symbols. The participants had the option to correct their initial responses if they desired. Participants were instructed to solve as many rows, or trials, as possible within two minutes. Before beginning the actual paradigm, participants performed a training block with 4 trials, for which they received feedback, to ensure their comprehension of the task. No feedback was provided throughout the actual task. Once a participant finished all 15 trials, they pressed the 'next page' button to advance onward. There were 4 pages (a maximum of 60 trials) in total. No participant ever reached the end of the 60 trials.",
+  "Instructions": "The task is to figure out if either one of the two first symbols are presented again in the same line. Press with the left mouse button YES and NO boxes to select your answer. If you accidently press the wrong button you can make a correction by simply clicking on the other response. You have 2 min to solve as many trials as possible."
+}

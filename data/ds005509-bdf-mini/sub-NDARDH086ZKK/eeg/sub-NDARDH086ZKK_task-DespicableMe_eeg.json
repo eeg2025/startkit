@@ -1,0 +1,10 @@
+{
+  "PowerLineFrequency": 60,
+  "TaskName": "DespicableMe",
+  "EEGChannelCount": 129,
+  "EEGReference": "Cz",
+  "RecordingType": "continuous",
+  "RecordingDuration": 175.504,
+  "SamplingFrequency": 100,
+  "SoftwareFilters": "n/a"
+}
